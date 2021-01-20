@@ -4,6 +4,7 @@
 
 Proyecto de prueba para Curso práctico de DevOps de ORCI Latam.
 
+
 ## Paso 1 — Una aplicación Java aislada
 
 Tenemos una aplicación en Java que ejecuta aislada localmente y en forma manual. Este es el punto de partida para cualquier desarrollo.
