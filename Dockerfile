@@ -1,12 +1,12 @@
 # Usar como base una imagen de Debian con Java 11 preinstalado
-FROM openjdk:11-jre-slim
+FROM openjdk:8-jre-slim
 
 # El puerto de EXPOSE es meramente informativo
 # (no expone realmente)
 EXPOSE 9090
 
 # Definir un argumento local
-ARG WAR=target/portal-aquarella-*.war
+ARG WAR=target/portal-aquarella-guillermo*.war
 
 # Copiar DESDE el directorio actual (pwd, NO el del contenedor)
 # HACIA /app EN el contenedor
